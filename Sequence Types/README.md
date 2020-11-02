@@ -6,13 +6,13 @@ A regular strictly convex polygon is a polygon that has the following characteri
   2. all sides have equal length
  
 For a regular strictly convex polygon with:
-* n edges (=n vertices)
-    * R circumradius
-    * interiorAngle=(n−2)⋅180n
-    * edgeLength,s=2⋅R⋅sin(πn)
-    * apothem,a=R⋅cos(πn)
-    * area=12⋅n⋅s⋅a
-    * perimeter=n⋅s
+  * n edges (=n vertices)
+  * R circumradius
+  * interiorAngle=(n−2)⋅180n
+  * edgeLength,s=2⋅R⋅sin(πn)
+  * apothem,a=R⋅cos(πn)
+  * area=12⋅n⋅s⋅a
+  * perimeter=n⋅s
 
 ### Objective 1:
 To create a Polygon Class, where initializer takes in:
