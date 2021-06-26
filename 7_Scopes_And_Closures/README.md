@@ -9,8 +9,9 @@ In python, nested functions able to access the variables in enclosing scope
 
         innerFunction()
 
-innerFunction and the local variable in the function scope 'text' is accessible only inside outerFunction. Its not accessible outside.
-🦸 Closures to the rescue!
+innerFunction and the local variable in the function scope 'text' is accessible only inside outerFunction. Its not accessible outside.</br>
+
+**🦸Closures to the rescue!**
 
 In Closures, nested function is returned. Both the nested function and the local scope variables ('Free Variables') are accessible outside the closure as well.
 
