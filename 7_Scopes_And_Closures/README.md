@@ -1,5 +1,5 @@
 # Closures:
-In python, nested functions able to access the variables in enclosing scope
+In python, nested functions able to access the variables only in enclosing scope
 
     def outerFunction(text):
         text = text
@@ -9,7 +9,7 @@ In python, nested functions able to access the variables in enclosing scope
 
         innerFunction()
 
-innerFunction and the local variable in the function scope 'text' is accessible only inside outerFunction. Its not accessible outside.</br>
+innerFunction and the local variable in the function scope 'text' are accessible only inside outerFunction. Its not accessible outside. /br> 
 
 **🦸Closures to the rescue!**
 
